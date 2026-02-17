@@ -1,0 +1,50 @@
+[00:00:01.582] Server  LOG     ✓ Ready in 1060ms
+[00:02:00.971] Server  LOG     ✓ Compiled in 1358ms
+[00:02:03.405] Server  LOG     ✓ Compiled in 307ms
+[00:02:09.564] Server  LOG     ✓ Compiled in 188ms
+[00:02:43.136] Server  LOG     ✓ Compiled in 0ms
+[00:02:58.344] Server  LOG     ✓ Compiled in 0ms
+[00:04:56.424] Server  LOG     ✓ Compiled in 1846ms
+[00:06:51.446] Server  LOG     ✓ Compiled in 432ms
+[00:07:04.967] Server  LOG     ✓ Compiled in 260ms
+[00:08:14.029] Server  LOG     ✓ Compiled in 909ms
+[00:08:31.758] Server  LOG     ✓ Compiled in 127ms
+[00:09:32.442] Server  LOG     ✓ Compiled in 0ms
+[00:09:34.099] Server  LOG     ✓ Compiled in 0ms
+[00:12:43.258] Server  LOG     ✓ Compiled in 380ms
+[00:20:52.082] Server  LOG     ✓ Compiled in 419ms
+[00:20:53.962] Server  LOG     ✓ Compiled in 1210ms
+[00:20:54.780] Browser ERROR   ./components/Contact.jsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState } from "react";
+    |                 ^^^^^^^^
+  2 | import { FaEnvelope, FaMapMarkerAlt, FaGithub } from "react-icons/fa";
+  3 | import RevealOnScroll from "./RevealOnScroll";
+  4 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Contact.jsx
+    ./app/page.js
+[00:21:12.753] Server  LOG     ✓ Compiled in 266ms
+[00:23:59.380] Server  LOG     ✓ Compiled in 494ms
+[00:27:33.590] Server  LOG     ✓ Compiled in 489ms
+[00:27:35.148] Server  LOG     ✓ Compiled in 124ms
+[00:30:04.685] Server  LOG     ✓ Compiled in 364ms
+[00:31:53.737] Server  LOG     ✓ Compiled in 402ms
+[00:31:55.936] Server  LOG     ✓ Compiled in 130ms
+[00:31:57.988] Server  LOG     ✓ Compiled in 123ms
+[00:33:56.749] Server  LOG     ✓ Compiled in 148ms
+[00:34:54.442] Server  LOG     ✓ Compiled in 361ms
+[00:35:41.731] Server  LOG     ✓ Compiled in 400ms
+[00:38:49.276] Server  LOG     ✓ Compiled in 1233ms
+[00:38:53.689] Server  LOG     ✓ Compiled in 270ms
+[00:41:57.711] Server  LOG     ✓ Compiled in 1858ms
+[00:44:59.544] Server  LOG     ✓ Compiled in 588ms
+[00:45:34.238] Server  LOG     ✓ Compiled in 126ms
+[00:47:42.934] Server  LOG     ✓ Compiled in 626ms
+[00:49:41.544] Server  LOG     ✓ Compiled in 332ms
